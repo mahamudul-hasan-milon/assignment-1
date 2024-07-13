@@ -39,12 +39,22 @@ header {
     padding-left: 200px;
     padding-right: 200px;
     gap: 32px;
+    height: 52px;
+
 }
 
 .header-btn {
-
+    margin-top: 30px;
+    margin-left: 650px;
+    margin-right: 500px;
+    font-size: 20px;
+    font-weight: 600;
     border-radius: 8px;
     padding: 21px 24px 21px 24px;
+    color: white;
+    background-color: black;
+    border: none;
+    align-items: center;
 }
 
 .intro-section {
@@ -60,6 +70,7 @@ header {
 }
 
 .intro-text {
+    margin-left: 25px;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -73,6 +84,12 @@ header {
     display: flex;
     width: 1200px;
     height: 240px;
+    gap: 32px;
+}
+
+.con-2 {
+    flex-direction: row-reverse;
+    gap: 32px;
 }
 
 .main-content {
@@ -99,6 +116,13 @@ header {
 .content-button {
     padding: 12px 20px 12px 20px;
     color: 1px Inside rgb(13, 19, 33);
+    padding: 12px 20px 12px 20px;
+    border-radius: 10px;
+    background: wheat;
+    text-decoration: none;
+    margin: 1px;
+    margin-top: 2px;
+
 }
 
 .content-pic {
@@ -115,10 +139,25 @@ header {
     height: 218px;
 }
 
+.ins-text {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.video {
+    margin-left: 25px;
+
+}
+
 .skills-container {
     display: flex;
     gap: 24px;
 
+}
+
+.current-text {
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .skill,
@@ -158,6 +197,47 @@ header {
     color: rgb(13, 19, 33);
     opacity: 0.7;
 
+}
+
+.support {
+    display: block;
+    background-image: url('../assets/handshake.jpg');
+    border-radius: 16px;
+    padding: 64px 48px 64px 48px;
+    width: 1140px;
+    height: 314px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+.support-title {
+    color: white;
+}
+
+.support-text {
+    color: rgb(255, 255, 255);
+}
+
+.s-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 100px;
+
+}
+
+.input {
+    width: 548px;
+    height: 55px;
+}
+
+.submit {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px 17px 20px;
 }
 
 footer {
